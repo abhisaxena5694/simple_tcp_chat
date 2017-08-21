@@ -13,7 +13,7 @@ print 'The server is ready to receive'
 while 1:
 	
 	rcvMsg = connectionSocket.recv(1024)
-	if rcvMsg == '*quit*':
+	if rcvMsg == 'quit':
 		print "Exiting."
 		connectionSocket.close()
 		exit()

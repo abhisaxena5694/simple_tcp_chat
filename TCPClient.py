@@ -11,7 +11,7 @@ clientSocket.connect((serverName, serverPort))
 while True:
     sendMsg = raw_input('>')
     # if sentence is quit, then send a *quit* message to the server and exit the client app.
-    if sendMsg == '*quit*':
+    if sendMsg == 'quit':
         clientSocket.send(sendMsg)
         clientSocket.close()
         print "Exiting."
