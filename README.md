@@ -9,3 +9,5 @@ $ python server.py
 Then run the client.py program on another terminal using the following commamd-
 
 $ python client.py
+
+To quit the app, type *quit* on the terminal running client.py
